@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  /* display: grid; */
+}
+
+
+
+svg {
+  margin: 2em;
+  height: 90vh;
+  max-width: 90vw;
+  fill: none;
+  stroke: lightgray;
+  stroke-dasharray: 2px;
+  /* border-width: 1px;
+  border-color: black;
+  border-style: dotted;
+  border-radius: 2em; */
+}
+
+.state_red {
+  fill: red;
+}
+
+.state_blue {
+  fill: blue;
+}
+
+.return {
+  display : flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.results-pane {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100vh;
+  overflow: scroll;
+  background: white;
+}
+
+.results-pane svg{
+  height: 2em;
+  margin: .5em;
+  /* stroke: none; */
+}
+
+.results-pane .total {
+  fill: lightgray;
+  opacity: 90%;
+  stroke: none
+}
+
+.results-pane .red {
+  fill: red;
+  stroke: none;
+}
+.results-pane .blue {
+  fill: blue;
+  stroke: none;
+}
