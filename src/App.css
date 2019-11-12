@@ -39,8 +39,15 @@ svg {
   left: 0px;
   top: 0px;
   height: 100vh;
+  border: grey;
   overflow: scroll;
   background: rgba(200,200,200,0.2);
+}
+
+@media(max-width: 1199px) {
+  .results-pane {
+    position: inherit;
+  }
 }
 
 .results-pane svg{
